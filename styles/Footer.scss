@@ -1,0 +1,22 @@
+.footer {
+  color: #eeeeee99;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  height: 3rem;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  // Grid
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "home trending subscription library";
+}
+
+.footer li {
+  font-size: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
